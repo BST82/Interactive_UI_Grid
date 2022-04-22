@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mun1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="College student management"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtdashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="BhagyaShri Tamrakar"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/txtdashboard"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-58dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/img_14">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnOrderPreserved="false">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/student"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img_6"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="InvalidId" />
+
+
+
+                <TextView
+                    android:background="@android:color/transparent"
+                    android:textStyle="bold"
+                    android:text="Add student"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/faculty"
+                    android:src="@drawable/img_7"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="InvalidId"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Add faculty"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/pdf"
+                    android:src="@drawable/img_4"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    tools:ignore="DuplicateIds,InvalidId" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Add pdf"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/notice"
+                    android:src="@drawable/nop1"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="DuplicateIds,InvalidId" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Add notice"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/attendance"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:src="@drawable/img_8"
+                    tools:ignore="DuplicateIds,InvalidId" />
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Add attendance"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/events"
+                    android:src="@drawable/img_9"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="DuplicateIds,InvalidId" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Events"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/about"
+                    android:src="@drawable/img_1"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="DuplicateIds,InvalidId" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="About"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/achievements"
+                    android:src="@drawable/img_5"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="DuplicateIds,InvalidId" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Achievements"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/placements"
+                    android:src="@drawable/img_12"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="DuplicateIds,InvalidId" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Top placements"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/contact"
+                    android:src="@drawable/img_13"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    tools:ignore="DuplicateIds,InvalidId" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Contact us"
+                    android:textSize="18sp"
+                    android:textColor="#6f6f6f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

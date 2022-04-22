@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357865265784",
+    "project_id": "college-student-management-app",
+    "storage_bucket": "college-student-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357865265784:android:b91fa3565fdf3f4431eb8d",
+        "android_client_info": {
+          "package_name": "com.dim.college_student_managementcsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357865265784-mn1p2m5usoecipeouaho03phmhbfudqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0E2ZCbWr1wdPOpnRujhkKqyvW09DtV5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357865265784-mn1p2m5usoecipeouaho03phmhbfudqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
